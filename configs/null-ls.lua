@@ -17,6 +17,12 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
+
+  -- erb
+  b.diagnostics.erb_lint,
+
+  -- ruby
+  b.diagnostics.rubocop,
 }
 
 null_ls.setup {
